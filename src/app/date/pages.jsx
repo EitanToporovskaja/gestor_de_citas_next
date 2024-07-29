@@ -16,4 +16,4 @@ const TomarCitas = ( props ) =>{
         </div>
     )
 }
-export default TomarCitas
+export default TomarCitas;

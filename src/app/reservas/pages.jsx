@@ -6,3 +6,4 @@ const Reservas = () =>{
     <p></p>
     )
 }
+export default Reservas;

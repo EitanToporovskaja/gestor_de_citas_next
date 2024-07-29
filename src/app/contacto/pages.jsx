@@ -51,3 +51,4 @@ const Contacto = ({params}) => {
         </Layout>
     )
 }
+export default Contacto;
