@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.css'
-import Layout from '../layout';
+import './style.css';
+import Layout from '../layout.js';
 
-const Contacto = ({params}) => {
+const Contacto = ({}) => {
     return(
         <Layout>
             <div class="Contacto">

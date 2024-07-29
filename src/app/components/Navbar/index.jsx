@@ -1,7 +1,7 @@
 import React from 'react';
-import {style} from "./style.jsx"
-import Link from 'next/link.js'
-import './styles.css'
+import {style} from "./style.jsx";
+import Link from 'next/link.js';
+import './styles.css';
 const NavBar= ()=>{
     return(
         <nav style={style.nav}>

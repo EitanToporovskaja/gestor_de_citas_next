@@ -1,8 +1,8 @@
 import React from 'react';
-import './styles.css'
-import Layout from '../layout';
+import './styles.css';
+import Layout from '../layout.js';
 
-const About = ()=>{
+const About = () => {
     return(
         <Layout>
             <div>
