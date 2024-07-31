@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import { style } from './style';
 
 const Input = ({ type, value, onChange }) => {
@@ -14,10 +14,10 @@ const Input = ({ type, value, onChange }) => {
   );
 };
 
-Input.propTypes = {
+/*Input.propTypes = {
   type: PropTypes.oneOf(['text', 'date', 'time']).isRequired,
   value: PropTypes.any.isRequired,
   onChange: PropTypes.func.isRequired,
-};
+};*/
 
 export default Input;

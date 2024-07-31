@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Input from '../Input';
-import CardTurno from '../CardTurno';
+import CardTurno from '../CardTurno';//Funciona?
 import { style } from './style';
 
 const Formulario = () => {

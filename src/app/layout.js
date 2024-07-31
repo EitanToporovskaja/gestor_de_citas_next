@@ -4,8 +4,8 @@ export default function RootLayout({ children }) {
   return (
 
     <html>
-      <body>
-        <header>
+      <body style={{margin:"0",padding:"10px"}}>
+        <header style={{margin:"0"}}>
           <NavBar/>
         </header>
         <main>

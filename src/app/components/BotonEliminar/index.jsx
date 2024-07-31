@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import { style } from './style';
 
 const BotonEliminar = ({ onClick }) => {
@@ -8,8 +8,6 @@ const BotonEliminar = ({ onClick }) => {
   );
 };
 
-BotonEliminar.propTypes = {
-  onClick: PropTypes.func.isRequired,
-};
+
 
 export default BotonEliminar;
