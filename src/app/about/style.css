@@ -4,3 +4,37 @@ p {
     padding-top: 20px;
     
 }
+/* style.css */
+.Date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.About p {
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.About p:first-of-type {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.About p:not(:first-of-type) {
+    color: #555;
+}
+
+.About p:last-of-type {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #007bff;
+}

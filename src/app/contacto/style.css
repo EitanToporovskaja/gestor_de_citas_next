@@ -10,21 +10,74 @@ h3{
     margin-top: 10px;
     padding-top: 10px;
 }
-.HA{
+/* style.css */
+.Contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
 
+.Contacto .C {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
 }
-.C{
 
+.Contacto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
 }
-.CE{
 
+.Contacto p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
 }
-.D{
 
+.Contacto .FC {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
 }
-.FC{
-    
+
+.Contacto .FC h3 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
 }
-.Contacto{
-    
+
+.Contacto .FC div {
+    margin-bottom: 20px;
+}
+
+.Contacto .FC b {
+    font-weight: bold;
+    color: #333;
+}
+
+.Contacto .FC p {
+    margin: 5px 0;
+}
+
+.Contacto .CE p {
+    margin: 5px 0;
+}
+
+.Contacto .D p {
+    margin: 5px 0;
+}
+
+.Contacto .HA p {
+    margin: 5px 0;
+}
+
+.Contacto p:last-of-type {
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: center;
 }

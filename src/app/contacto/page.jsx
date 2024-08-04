@@ -5,15 +5,15 @@ import Layout from '../layout.js';
 const Contacto = ({}) => {
     return(
         <Layout>
-            <div class="Contacto">
-                <div class ="C">
+            <div className="Contacto">
+                <div className ="C">
                     <h1>Contacto</h1>
                     <p>
                         ¡Nos encantaría saber de ti! En Veterina, estamos aquí para ayudarte con cualquier pregunta o inquietud que puedas tener. Ya sea que necesites programar una cita, 
                         tengas alguna consulta sobre nuestros servicios, o simplemente quieras saber más sobre cómo podemos cuidar a tu mascota, nuestro equipo está listo para asistirte.
                     </p>
                 </div>
-                <div class ="FC">
+                <div className ="FC">
                     <h3>Formas de Contacto</h3>
                     <div>
                         <b>Teléfono:</b>
@@ -22,7 +22,7 @@ const Contacto = ({}) => {
                             Sábados: 9:00 AM - 2:00 PM
                         </p>
                     </div>
-                    <div class ="CE">
+                    <div className ="CE">
                         <b>Correo Electrónico:</b>
                         <p>
                             Veterina@gmail.com
@@ -30,14 +30,14 @@ const Contacto = ({}) => {
                             Trataremos de responderte a la brevedad.
                         </p>
                     </div>
-                    <div class ="D">
+                    <div className ="D">
                         <b>Dirección:</b>
                         <p>
                             Calle falsa 1234
                             Ciudad linda, pais existente, codigo postal 0000
                         </p>
                     </div>
-                    <div class ="HA">
+                    <div className ="HA">
                         <b>Horario de Atención:</b>
                         <p>
                         Lunes a Viernes: 9:00 AM - 6:00 PM

@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import Layout from '../layout.js';
 
-const About = () => {
+const About = ({}) => {
     return(
         <Layout>
             <div>

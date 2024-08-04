@@ -7,10 +7,10 @@ const NavBar= ()=>{
         <nav style={style.nav}>
 
             <ul style={style.ul}>
-                <li class='li' style={style.li}><Link style={style.a} href ="/">Home</Link> </li>
-                <li class='li' style={style.li}><Link style={style.a} href ="/about">Sobre nosotros</Link> </li>
-                <li class='li' style={style.li}><Link style={style.a} href ="/contacto">Contacto</Link> </li>
-                <li class='li' style={style.li}><Link style={style.a} href ="/date">Turnos</Link> </li>
+                <li className='li' style={style.li}><Link style={style.a} href ="/">Home</Link> </li>
+                <li className='li' style={style.li}><Link style={style.a} href ="/about">Sobre nosotros</Link> </li>
+                <li className='li' style={style.li}><Link style={style.a} href ="/contacto">Contacto</Link> </li>
+                <li className='li' style={style.li}><Link style={style.a} href ="/date">Turnos</Link> </li>
                 
             </ul>
     </nav>  

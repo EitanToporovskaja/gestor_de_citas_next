@@ -9,8 +9,8 @@ const Date = () =>{
         <Layout>
             <div style={style.flex}>
                 <h1 style={style.h1}>Listado de usuarios: </h1>
-                <div class="cards">
-                     <div class="card">
+                <div className="cards">
+                     <div className="card">
                         <Formulario/>   
                     </div>
                 </div>
