@@ -1,5 +1,14 @@
 p{
 justify-content: center;
+padding-top: 5px;
+margin-top: 5px;
+}
+h1{
+    margin-top: 40px;
+}
+h3{
+    margin-top: 10px;
+    padding-top: 10px;
 }
 .HA{
 

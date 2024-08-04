@@ -6,7 +6,7 @@ export const style = {
     },
     h1:{
         width:"auto",
-        textAlign:"center"
+        textAlign:"center",
         marginTop: "50px"
     }
 }

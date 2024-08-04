@@ -11,6 +11,8 @@ export const style={
         alignItems:"top",
         alignContent:"space-between",
         background:"#50B191",
+        top: 0,
+        left: 0,
         zIndex:"99999" /* TIAGO TE AMO, MIL GRACIAS */
         
     },
