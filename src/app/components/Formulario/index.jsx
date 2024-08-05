@@ -52,7 +52,7 @@ const Formulario = () => {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-even', width:'100%' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', width:'50%' }}>
       <form onSubmit={handleSubmit} style={style.formContainer}>
         <label style={style.label}>
           Nombre del dueño:
@@ -109,7 +109,8 @@ const Formulario = () => {
         </button>
       </form>
       {/* Contenedor de tarjetas con estilo de fila */}
-      <div style={{ display: 'flex', flexDirection: 'column', flexWrap: 'wrap', justifyContent: 'center', width:'100%' }}>
+
+      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', width:'50%' }}>
         {cards.map((card, index) => (
           <CardTurno
             key={index}

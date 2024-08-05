@@ -8,12 +8,12 @@ const Date = () =>{
     return (
         <Layout>
             <div style={style.flex}>
-                <h1 style={style.h1}>Listado de usuarios: </h1>
-                <div className="cards">
-                     <div className="card">
+                <h1 style={style.h1}>¡Reserva tu turno ahora!</h1>
+                
+                     <div className="card" style={style.card}>
                         <Formulario/>   
                     </div>
-                </div>
+                
             </div>
         </Layout>
     )

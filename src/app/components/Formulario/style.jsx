@@ -1,6 +1,6 @@
 export const style = {
   formContainer: {
-    maxWidth: '300px',
+    maxWidth: '50%',
     margin: '20px auto',
     padding: '20px',
     backgroundColor: '#f2e6d9',
@@ -15,6 +15,8 @@ export const style = {
     marginBottom: '10px',
     fontWeight: 'bold',
     color: '#8b7355',
+    fontFamily:"verdana",
+    fontSize:"12px"
   },
   input: {
     width: '100%',
@@ -23,7 +25,7 @@ export const style = {
     borderRadius: '5px',
     border: '1px solid #ccc',
     boxSizing: 'border-box',
-    backgroundColor: 'white',
+    backgroundColor: 'white'
   },
   button: {
     padding: '10px 20px',

@@ -1,5 +1,7 @@
 export const style={
-    
+    background:{
+
+    },
     nav:{
         position:"fixed",
         margin:"0",
@@ -12,8 +14,9 @@ export const style={
         alignContent:"space-between",
         top: 0,
         left: 0,
-        zIndex:"99999" /* TIAGO TE AMO, MIL GRACIAS */
-        
+        zIndex:"99999" /* TIAGO TE AMO, MIL GRACIAS */,
+        backgroundColor: "#ffe8d6",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)"
     },
 
     ul:{

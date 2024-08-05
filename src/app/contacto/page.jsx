@@ -13,7 +13,7 @@ const Contacto = ({}) => {
                         tengas alguna consulta sobre nuestros servicios, o simplemente quieras saber más sobre cómo podemos cuidar a tu mascota, nuestro equipo está listo para asistirte.
                     </p>
                 </div>
-                <div className="FC">
+                <div className="info">
                     <h3>Formas de Contacto</h3>
                     <div>
                         <b>Teléfono:</b>
@@ -21,20 +21,20 @@ const Contacto = ({}) => {
                             Lunes a Sábados: 9:00 AM - 4:00 PM
                         </p>
                     </div>
-                    <div className="CE">
+                    <div className="info">
                         <b>Correo Electrónico:</b>
                         <p>
                             veterina.animales@gmail.com<br />
                             Estamos disponibles para responder tus consultas por correo electrónico durante nuestro horario de atención. Trataremos de responderte a la brevedad.
                         </p>
                     </div>
-                    <div className="D">
+                    <div className="info">
                         <b>Dirección:</b>
                         <p>
                             Av. Corrientes 4334
                         </p>
                     </div>
-                    <div className="HA">
+                    <div className="info">
                         <b>Horario de Atención:</b>
                         <p>
                             Lunes a Sábados: 9:00 AM - 4:00 PM<br />

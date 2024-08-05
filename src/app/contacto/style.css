@@ -2,14 +2,17 @@
 body {
     background-color: #f3ece7;
 }
-
+h1, h2,h3, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .Contacto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 5%;
     font-family: Arial, sans-serif;
     color: #333;
+    border-radius: 10px;
 }
 
 .Contacto .C {
@@ -21,75 +24,21 @@ body {
     border-radius: 10px;
 }
 
-.Contacto h1 {
-    font-size: 2.5rem;
+
+.Contacto .info div{
     margin-bottom: 20px;
-    color: #007bff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: justify;
 }
-
-.Contacto p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin: 0;
+.Contacto .info div p{
+    text-align: justify;
 }
-
-.Contacto .FC {
-    width: 100%;
-    max-width: 800px;
-    margin-bottom: 20px;
-    background-color: #ffe8d6;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #d3a07e;
-}
-
-.Contacto .FC h3 {
-    font-size: 2rem;
-    color: #007bff;
-    margin-bottom: 20px;
-}
-
-.Contacto .FC div {
-    margin-bottom: 20px;
-}
-
-.Contacto .FC b {
-    font-weight: bold;
-    color: #333;
-}
-
-.Contacto .FC p {
-    margin: 5px 0;
-    font-size: 1rem;
-}
-
-.Contacto .CE p {
-    margin: 5px 0;
-}
-
-.Contacto .D p {
-    margin: 5px 0;
-}
-
-.Contacto .HA p {
-    margin: 5px 0;
-}
-
-.Contacto p:last-of-type {
-    font-size: 1rem;
-    margin-top: 20px;
-    text-align: center;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
+.info{
+    background-color: #d3b184;
+    border-radius: 3%;
+    padding: 1%;}
 .footer {
     display: flex;
     justify-content: center;
