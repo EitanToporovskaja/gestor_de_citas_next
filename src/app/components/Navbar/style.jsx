@@ -10,7 +10,6 @@ export const style={
         justifyContent:"center",
         alignItems:"top",
         alignContent:"space-between",
-        background:"#50B191",
         top: 0,
         left: 0,
         zIndex:"99999" /* TIAGO TE AMO, MIL GRACIAS */
@@ -42,7 +41,7 @@ export const style={
         listStyleType: "none",
         textDecoration: "none",
         textAlign: "center",
-        color:"white",
+        color:"black",
         fontWeight:"bold"
     },
     a2:{

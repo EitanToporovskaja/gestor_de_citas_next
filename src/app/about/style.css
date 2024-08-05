@@ -1,40 +1,109 @@
-p {
-    justify-content: center;
-    margin-top: 40px;
-    padding-top: 20px;
-    
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3ece7;
 }
-/* style.css */
-.Date {
+
+.About {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    font-family: Arial, sans-serif;
-    background-color: #fff;
     color: #333;
 }
 
-.About p {
-    max-width: 800px;
+.About h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin: 15px 0;
 }
 
-.About p:first-of-type {
-    font-size: 1.2rem;
+.team-member .photo {
+    width: 200px;
+    height: 200px;
+    background-color: #d3a07e;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #333;
     font-weight: bold;
-    color: #007bff;
 }
 
-.About p:not(:first-of-type) {
-    color: #555;
+.navbar {
+    background-color: #f3ece7;
 }
 
-.About p:last-of-type {
-    margin-top: 30px;
+.navbar a {
+    color: #333;
+    text-decoration: none;
     font-weight: bold;
-    color: #007bff;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header .logo h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.header .menu a:hover {
+    text-decoration: underline;
 }

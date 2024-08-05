@@ -1,38 +1,39 @@
 export const style = {
-    formContainer: {
-      maxWidth: '400px',
-      margin: '0 auto',
-      padding: '20px',
-      border: '1px solid #ccc',
-      borderRadius: '5px',
-      boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
-      display:"flex",
-      flexDirection:"column",
-      justifyContent:"center"
-    },
-    label: {
-      display: 'block',
-      marginBottom: '5px',
-      fontWeight: 'bold',
-    },
-    textarea: {
-      width: '100%',
-      padding: '10px',
-      marginBottom: '10px',
-      borderRadius: '3px',
-      border: '1px solid #ccc',
-      boxSizing: 'border-box',
-    },
-    button: {
-      padding: '10px 20px',
-      backgroundColor: '#00838f',
-      color: '#fff',
-      border: 'none',
-      borderRadius: '3px',
-      cursor: 'pointer',
-      fontSize: '16px',
-    },
-    buttonHover: {
-      backgroundColor: '#00acc1',
-    }
-  };
+  formContainer: {
+    maxWidth: '300px',
+    margin: '20px auto',
+    padding: '20px',
+    backgroundColor: '#f2e6d9',
+    borderRadius: '15px',
+    boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center"
+  },
+  label: {
+    display: 'block',
+    marginBottom: '10px',
+    fontWeight: 'bold',
+    color: '#8b7355',
+  },
+  input: {
+    width: '100%',
+    padding: '8px',
+    marginTop: '5px',
+    borderRadius: '5px',
+    border: '1px solid #ccc',
+    boxSizing: 'border-box',
+    backgroundColor: 'white',
+  },
+  button: {
+    padding: '10px 20px',
+    backgroundColor: '#fff9e6',
+    color: '#8b7355',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    marginTop: '10px',
+  },
+};

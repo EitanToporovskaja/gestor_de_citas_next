@@ -1,29 +1,35 @@
 export const style = {
   card: {
-    backgroundColor: '#fff',
-    border: '1px solid #ccc',
-    borderRadius: '10px',
-    padding: '1%',
-    margin: '1%',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    backgroundColor: '#f2e6d9',
+    border: 'none',
+    borderRadius: '15px',
+    padding: '20px',
+    margin: '20px auto',
+    boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
     textAlign: 'left',
-    width:"20%"
+    maxWidth: '300px',
+    fontFamily: 'Arial, sans-serif',
   },
-  petName: {
-    marginBottom: '10px',
-    color: '#333',
-    fontSize: '1.5rem',
+  title: {
+    color: '#8b7355',
+    fontSize: '1.2rem',
     fontWeight: 'bold',
+    marginBottom: '15px',
   },
-  ownerInfo: {
-    color: '#666',
-    marginBottom: '5px',
+  info: {
+    color: '#8b7355',
+    marginBottom: '10px',
+    fontSize: '0.9rem',
   },
-  dateTime: {
-    color: '#555',
-    marginBottom: '5px',
-  },
-  symptoms: {
-    color: '#444',
+  button: {
+    padding: '8px 16px',
+    backgroundColor: '#fff9e6',
+    color: '#8b7355',
+    border: 'none',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    fontSize: '14px',
+    fontWeight: 'bold',
+    marginTop: '10px',
   },
 };
