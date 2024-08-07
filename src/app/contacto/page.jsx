@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Layout from '../layout.js';
-
+import FormContacto from '../components/FormContacto'
 
 const Contacto = ({}) => {
     return (
@@ -44,7 +44,9 @@ const Contacto = ({}) => {
                     </div>
                 </div>
                 <p>Para cualquier otra consulta, no dudes en llamarnos o enviarnos un mensaje. ¡Estamos aquí para ayudarte a ti y a tu mascota en todo lo que necesites!</p>
-
+            </div>
+            <div className='formContacto'>
+            <FormContacto/>
             </div>
         </Layout>
     );

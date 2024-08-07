@@ -49,6 +49,11 @@ h1, h2,h3, p{
     border: 1px solid #d3a07e;
     margin-top: 20px;
 }
+.formContacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer div {
     margin: 0 10px;
