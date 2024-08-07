@@ -40,7 +40,7 @@ const Home = () => {
               </svg>
             }
             description="Los perros son leales y cariñosos, perfectos para cualquier hogar."
-            imageSrc="/images/dogs.jpg"
+            imageSrc="https://i.ibb.co/DrgWLRs/perro.jpg"
           />
           <Card
             bgColor="#f8d09d"
@@ -60,7 +60,7 @@ const Home = () => {
               </svg>
             }
             description="Los peces son mascotas tranquilas y requieren poco mantenimiento."
-            imageSrc="/images/fish.jpg"
+            imageSrc="https://i.ibb.co/mCwRF1n/pez.jpg"
           />
           <Card
             bgColor="#f8d09d"
@@ -80,7 +80,7 @@ const Home = () => {
               </svg>
             }
             description="Los gatos son independientes y elegantes, perfectos para la vida moderna."
-            imageSrc="/images/cats.jpg"
+            imageSrc="https://i.ibb.co/HKn7JgL/gato.jpg"
           />
           <Card
             bgColor="#f8d09d"
@@ -100,7 +100,7 @@ const Home = () => {
               </svg>
             }
             description="Los conejos son adorables y juguetones, ideales para niños."
-            imageSrc="/images/rabbits.jpg"
+            imageSrc="https://i.ibb.co/MMgtJGR/conejo.jpg"
           />
           <Card
             bgColor="#f8d09d"
@@ -120,7 +120,7 @@ const Home = () => {
               </svg>
             }
             description="Los hamsters son pequeños y activos, perfectos para espacios reducidos."
-            imageSrc="/images/hamsters.jpg"
+            imageSrc="https://i.ibb.co/HpwwWwf/hamster.jpg"
           />
         </div>
       </section>
